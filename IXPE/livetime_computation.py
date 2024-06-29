@@ -1,6 +1,6 @@
 ############################################################
 ###                                                      ###
-### Script credit: Stefano Silverstri (UniPi, INFN-Pisa) ###
+### Script credit: Stefano Silvestri (UniPi, INFN-Pisa) ###
 ###                                                      ###
 ############################################################
 
