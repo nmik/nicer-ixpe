@@ -1,0 +1,13 @@
+#
+# NICER Observation 5593051301
+# nicerl3-spect 1.10
+# Run date: Thu Jul 18 19:31:04 2024
+# Observation: 5593051301
+#
+#BEGIN
+data 1:1 5593051301/xti/event_cl/ni5593051301mpu7_sr3c50.pha
+ignore bad
+back 1 5593051301/xti/event_cl/ni5593051301mpu7_bg3c50.pha
+resp 1:1 5593051301/xti/event_cl/ni5593051301mpu73c50.rmf
+arf  1:1 5593051301/xti/event_cl/ni5593051301mpu73c50.arf
+#END
