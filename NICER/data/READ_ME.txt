@@ -2,8 +2,9 @@ BEFORE USING THESE NOTEBOOKS PLEASE FOLLOW THESE STEPS:
 
 1) Initialize Heasoft and CALDB
 
-2)Set your GEOMAG path:
+2)Set your GEOMAG path and run nigeodown:
 export GEOMAG_PATH=/to/your/local/geomag/path
+nigeodown
 
 3)Run the two following commands in terminal/shell to allow notebooks to run:
 export HEADASNOQUERY=
