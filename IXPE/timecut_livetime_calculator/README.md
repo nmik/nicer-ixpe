@@ -15,7 +15,7 @@ Instructions
 - unzip the all the files in *event_l1* and *event_l2* folders.
 - run the script with
 
-    python livetime_computation.py --path 01003199/ --duration 10000 
+       python livetime_computation.py --path 01003199/ --duration 10000 
 
 where path is the path to the root folder with unzipped level1 and leverl 2 data, and the duration is the tentative time bin size in seconds (it will be rounded to make identical bins)'
 
