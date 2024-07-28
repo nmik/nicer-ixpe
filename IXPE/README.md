@@ -7,6 +7,6 @@ The Quick start guide and the analysis of the gray filter data can also be run o
 
 If you will be running the notebooks locally, you will need to download the following datasets before Day 4 of the workshop
 
-- Quick start: ObsID 01004701 - Mrk 501 (event_l2) https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01//01004701/
+- Quick start: ObsID 01004701 - Mrk 501 (event_l2 and hk) https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01//01004701/
 - Gray filter: ObsID 02250901 - Swift J1727.8-1613 (event_l2) https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/02//02250901/ 
 - Background Rejection: ObsID 02009701 - BL Lac (event_l2) https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/02//02009701/
