@@ -7,6 +7,6 @@ The Quick start guide and the analysis of the gray filter data can also be run o
 
 If you will be running the notebooks locally, it is also recommended that the following datasets are downloaded before Day 4 of the workshop
 
-Quick start: ObsID 01004701 - Mrk 501
-Gray filter: ObsID 02250901 - Swift J1727.8-1613 
-Background Rejection: ObsID 02009701 - BL Lac
+* Quick start: ObsID 01004701 - Mrk 501
+* Gray filter: ObsID 02250901 - Swift J1727.8-1613 
+* Background Rejection: ObsID 02009701 - BL Lac
