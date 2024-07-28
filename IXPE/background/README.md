@@ -10,7 +10,7 @@ If you do not wish to run the entire notebook, and instead want to simply apply 
 Instructions
 ------------
 
-- Download the root folder for one of the IXPE observations. For example you can download "02009701/" from https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01/. This can be as heavy as 10 GB!
+- Download the root folder for one of the IXPE observations. For example you can download "02009701/" from https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/02/. This can be as heavy as 10 GB!
 
 - unzip the all the files in *event_l1* and *event_l2* folders.
 - run the script with
