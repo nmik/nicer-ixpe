@@ -10,12 +10,14 @@ In this example script we provide the code to perfome a time selection of the le
 Instructions
 ------------
 
-- Download the following files form the archive at this link: https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01/01003199/event_l1/
+- Download the root folder for one of the IXPE observations. For example you can download "01003199/" from https://heasarc.gsfc.nasa.gov/FTP/ixpe/data/obs/01/. This can be as heavy as 10 GB!
 
-    - ixpe01003102_det1_evt1_v03.fits.gz
-    - ixpe01003102_det3_evt1_v03.fits.gz
-    - ixpe01003102_det2_evt1_v03.fits.gz
+- unzip the all the files in *event_l1* and *event_l2* folders.
+- run the script with
 
-- unzip the files
-- un
+    python livetime_computation.py --path 01003199/ --duration 10000 
+
+where path is the path to the root folder with unzipped level1 and leverl 2 data, and the duration is the tentative time bin size in seconds (it will be rounded to make identical bins)'
+
+    
 
