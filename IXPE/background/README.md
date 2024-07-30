@@ -15,9 +15,9 @@ Instructions
 - unzip the all the files in *event_l1* and *event_l2* folders.
 - run the script with
 
-       python filter_background.py --pathtolevel2file --pathtolevel1file --output rej
+       python filter_background.py <path/to/level2/file.fits> <path/to/leve12/file.fits> --output rej
   
-where pathtolevel2file and pathtolevel1file are the paths to the root folder with unzipped level2 and level 1 data. This will produce _rej-tagged fits files containing a list of X-ray only events.
+where <path/to/level2/file.fits> and <path/to/level1/file.fits> are the paths to the root folder with unzipped level2 and level 1 data. This will produce _rej-tagged fits files containing a list of X-ray only events.
 
 
 
