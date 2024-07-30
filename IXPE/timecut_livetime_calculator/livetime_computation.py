@@ -39,7 +39,7 @@ def lvl1_file_list(root_folder):
 def lvl1_du_file_list(root_folder, du_id):
     '''
     '''
-    return numpy.sort(glob(root_folder + f'event_l1/*det{du_id}*evt1*'))
+    return glob(root_folder + f'event_l1/*det{du_id}*evt1*')
 
 def lvl2_file(root_folder, du_id):
     '''
@@ -90,15 +90,17 @@ def split_file(root_folder, du_id, t_bins):
     '''
     '''
     evt_friend = xEventFileFriend(lvl2_file(root_folder, du_id),
-                                  *lvl1_du_file_list(root_folder,du_id))
+                                  lvl1_du_file_list(root_folder,du_id))
     n_bins = len(t_bins)
     #create a livetime histogram with livetime content per time interval
     lt_hist = build_livetime_hist(evt_friend, t_bins)
+    l2_file = lvl2_file(root_folder, du_id)
     for nbin in range (n_bins-1):
         tstart = t_bins[nbin]
         tstop = t_bins[nbin+1]
-        selected = pipeline.xpselect(lvl2_file(root_folder, du_id), tmin=tstart,
-                                     tmax=tstop, suffix=f'tbin_{nbin:05}')
+        suffix = f'tbin_{nbin:05}'
+        selected = pipeline.xpselect(l2_file, tmin=tstart,
+                                     tmax=tstop, suffix=suffix)
         lt = lt_hist.content[nbin]
         update_livetime(selected[0], lt)
 
