@@ -1,6 +1,6 @@
 # Welcome to the NICER/IXPE workshop!
 
-In this repository you can find the tutorials we will got hrough in this workshop. 
+In this repository you can find the tutorials we will got through in this workshop. 
 
 Attention
 ---------
